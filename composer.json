@@ -1,0 +1,20 @@
+{
+    "name": "blue32a-sandbox/phpmetrics",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpmetrics/phpmetrics": "^2.8"
+    },
+    "scripts": {
+        "metrics": "vendor/bin/phpmetrics --config=phpmetrics.json"
+    }
+}

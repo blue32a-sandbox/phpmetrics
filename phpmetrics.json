@@ -1,0 +1,7 @@
+{
+    "composer": false,
+    "includes": ["src"],
+    "report": {
+        "html": "reports/html"
+    }
+}
